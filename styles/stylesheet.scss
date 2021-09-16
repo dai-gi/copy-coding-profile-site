@@ -39,7 +39,13 @@ a {
     padding-right: 85px;
 }
 
-// header
+main {
+    p {
+        font-size: 14px;
+    }
+}
+
+// Header
 header {
     height: 60px;
     display: flex;
@@ -72,12 +78,47 @@ header {
     }
 }
 
-// top-wrapper
+// Top wrapper
 .top-wrapper {
+    margin-bottom: 80px;
     img {
         display: block;
         height: 600px;
         width: 100%;
         object-fit: cover;
+    }
+}
+
+// About section
+.about-section {
+    text-align: center;
+    .heading {
+        margin-bottom: 70px;
+        h2 {
+            font-size: 2rem;
+            border-bottom: 1px solid #000000;
+            display: inline-block;
+        }
+    }
+    .about-section__item {
+        display: flex;
+        justify-content: center;
+        .about-section__image {
+            img {
+                display: inline-block;
+                height: 100px;
+                width: 100px;
+                border-radius: 100%;
+            }
+        }
+        .about-section__text {
+            width: 385px;
+            text-align: left;
+            margin-left: 35px;
+            word-break: normal;
+            h4 {
+                margin: 9px 0;
+            }
+        }
     }
 }
