@@ -33,60 +33,46 @@ a {
   text-decoration: none;
 }
 
-.container {
-  width: 960px;
-  margin: 0 auto;
-  padding-left: 70px;
-  padding-right: 85px;
-}
-
 main p {
   font-size: 14px;
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding: 0 4%;
+}
+
 header {
   height: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
-.main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+.header-left {
+  float: left;
 }
 
-.main-nav__logo a {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.header-left a .logo {
+  width: 120px;
+  margin-top: 10px;
 }
 
-.main-nav__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.header-list {
+  float: right;
 }
 
-.main-nav__list .main-nav__item {
-  line-height: 40px;
-  margin-left: 30px;
-  font-size: 14.4px;
+.header-list li {
+  float: left;
+  line-height: 60px;
+  padding: 0 15px;
+  font-size: 15px;
 }
 
-.main-nav__list .main-nav__item a {
-  color: #24292e;
+.header-list li a {
+  color: #000000;
 }
 
-.main-nav__list .main-nav__item:hover {
-  opacity: 0.7;
+.header-list li a:hover {
+  opacity: 0.6;
 }
 
 .top-wrapper {
