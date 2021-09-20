@@ -2,25 +2,7 @@
     box-sizing: border-box;
 }
 
-html,
-body,
-ul,
-ol,
-li,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-div {
-    margin: 0;
-    padding: 0;
-}
-
 body {
-    margin: 0;
     font-family: "Hiragino Kaku Gothic ProN";
 }
 
@@ -55,6 +37,24 @@ main {
     h2 {
         font-size: 2rem;
     }
+}
+
+// CSSリセット
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -92,7 +92,7 @@ header {
 // Top wrapper
 .top-wrapper {
     margin-bottom: 80px;
-    .mainvisual {
+    .top-img {
         display: block;
         height: 600px;
         width: 100%;
@@ -100,14 +100,14 @@ header {
     }
 }
 
-// About section
+// About wrapper
 .about-wrapper {
     text-align: center;
     margin-bottom: 80px;
     .introduction {
         display: flex;
         justify-content: center;
-        .about {
+        .about-img {
             display: block;
             height: 100px;
             width: 100px;
@@ -123,28 +123,20 @@ header {
     }
 }
 
-// Bicycle section
-.bicycle-section {
+// Bicycle wrapper
+.bicycle-wrapper {
     text-align: center;
     margin-bottom: 120px;
-    .bicycle-section-cards {
+    .bicycle-contents {
         display: flex;
-        justify-content: center;
-        .bicycle-section__item {
-            width: 13.5%;
-            margin: 0 8px;
-            .bicycle-section-cards__image {
-                img {
-                    display: block;
-                    height: 100%;
-                    width: 100%;
-                    object-fit: cover;
-                }
-            }
-            .bicycle-section-cards__text {
-                h4 {
-                    margin: 18px 0;
-                }
+        text-align: center;
+        .item {
+            width: 35%;
+            margin: 0 10px;
+            .bicycle-img {
+                max-width: 100%;
+                height: auto;
+                width: auto;
             }
         }
     }
