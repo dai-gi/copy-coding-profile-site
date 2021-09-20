@@ -155,11 +155,10 @@ header {
 
 footer {
   text-align: center;
+  padding: 10px 0;
 }
 
 footer p {
-  padding: 10px 0;
   font-size: 10px;
-  color: #313131;
 }
 /*# sourceMappingURL=stylesheet.css.map */
