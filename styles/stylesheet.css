@@ -43,6 +43,20 @@ main p {
   padding: 0 4%;
 }
 
+.clear {
+  clear: left;
+}
+
+.heading {
+  display: inline-block;
+  margin-bottom: 70px;
+  border-bottom: 1px solid #000000;
+}
+
+.heading h2 {
+  font-size: 2rem;
+}
+
 header {
   height: 60px;
 }
@@ -87,12 +101,12 @@ header {
      object-fit: cover;
 }
 
-.about-section {
+.about-wrapper {
   text-align: center;
   margin-bottom: 80px;
 }
 
-.about-section .about-section__item {
+.about-wrapper .introduction {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,32 +115,20 @@ header {
           justify-content: center;
 }
 
-.about-section .about-section__item .about-section__image img {
-  display: inline-block;
+.about-wrapper .introduction .about {
+  display: block;
   height: 100px;
   width: 100px;
   border-radius: 100%;
 }
 
-.about-section .about-section__item .about-section__text {
-  width: 385px;
+.about-wrapper .introduction .about-contents {
   text-align: left;
-  margin-left: 35px;
-  word-break: normal;
+  margin-left: 30px;
 }
 
-.about-section .about-section__item .about-section__text h4 {
+.about-wrapper .introduction .about-contents h4 {
   margin: 10px 0;
-}
-
-.heading {
-  margin-bottom: 70px;
-}
-
-.heading h2 {
-  font-size: 2rem;
-  border-bottom: 1px solid #000000;
-  display: inline-block;
 }
 
 .bicycle-section {
