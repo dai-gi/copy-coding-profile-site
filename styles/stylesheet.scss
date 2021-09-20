@@ -92,14 +92,7 @@ header {
 // About section
 .about-section {
     text-align: center;
-    .heading {
-        margin-bottom: 70px;
-        h2 {
-            font-size: 2rem;
-            border-bottom: 1px solid #000000;
-            display: inline-block;
-        }
-    }
+    margin-bottom: 80px;
     .about-section__item {
         display: flex;
         justify-content: center;
@@ -117,7 +110,44 @@ header {
             margin-left: 35px;
             word-break: normal;
             h4 {
-                margin: 9px 0;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+.heading {
+    margin-bottom: 70px;
+    h2 {
+        font-size: 2rem;
+        border-bottom: 1px solid #000000;
+        display: inline-block;
+    }
+}
+
+
+// Bicycle section
+.bicycle-section {
+    text-align: center;
+    margin-bottom: 80px;
+    .bicycle-section-cards {
+        display: flex;
+        justify-content: center;
+        .bicycle-section__item {
+            width: 13.5%;
+            margin: 0 8px;
+            .bicycle-section-cards__image {
+                img {
+                    display: block;
+                    height: 100%;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+            .bicycle-section-cards__text {
+                h4 {
+                    margin: 18px 0;
+                }
             }
         }
     }
