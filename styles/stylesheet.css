@@ -20,7 +20,8 @@ main p {
 }
 
 .container {
-  width: 960px;
+  width: 100%;
+  max-width: 960px;
   margin: 0 auto;
   padding: 0 4%;
 }
@@ -60,8 +61,13 @@ header {
   height: 60px;
 }
 
-.header-left {
-  float: left;
+.header-contents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header-left a .logo {
@@ -69,13 +75,9 @@ header {
   margin-top: 10px;
 }
 
-.header-list {
-  float: right;
-}
-
 .header-list li {
   float: left;
-  padding: 0 15px;
+  padding-left: 30px;
   font-size: 15px;
   line-height: 60px;
 }
