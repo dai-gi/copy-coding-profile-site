@@ -1,0 +1,7 @@
+@media (max-width: 600px) {
+  .introduction {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
