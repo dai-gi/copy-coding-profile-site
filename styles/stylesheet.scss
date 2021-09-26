@@ -112,10 +112,12 @@ header {
         display: flex;
         justify-content: center;
         .about-img {
-            display: block;
-            width: 100px;
-            height: 100px;
-            border-radius: 100%;
+            img {
+                display: block;
+                width: 100px;
+                height: 100px;
+                border-radius: 100%;
+            }
         }
         .about-contents {
             margin-left: 30px;

@@ -116,7 +116,7 @@ header {
           justify-content: center;
 }
 
-.about-wrapper .introduction .about-img {
+.about-wrapper .introduction .about-img img {
   display: block;
   width: 100px;
   height: 100px;
@@ -126,10 +126,6 @@ header {
 .about-wrapper .introduction .about-contents {
   margin-left: 30px;
   text-align: left;
-}
-
-.about-wrapper .introduction .about-contents h4 {
-  margin: 10px 0;
 }
 
 .bicycle-wrapper {

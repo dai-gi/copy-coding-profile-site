@@ -2,5 +2,31 @@
   .top-wrapper .top-img {
     height: 95vh;
   }
+  .about-wrapper .introduction {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-wrapper .introduction .about-img {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .about-wrapper .introduction .about-contents {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 10px;
+  }
+  .about-wrapper .introduction .about-contents .about-contents-item h4 {
+    margin-bottom: 10px;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */

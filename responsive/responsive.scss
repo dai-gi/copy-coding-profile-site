@@ -4,4 +4,24 @@
         height: 95vh;
     }
 }
+
+.about-wrapper {
+    .introduction {
+        flex-direction: column;
+        .about-img {
+            display: flex;
+            justify-content: center;
+        }
+        .about-contents {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            .about-contents-item {
+                h4 {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
 }
