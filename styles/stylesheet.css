@@ -128,6 +128,10 @@ header {
   text-align: left;
 }
 
+.about-wrapper .introduction .about-contents h4 {
+  margin: 10px 0;
+}
+
 .bicycle-wrapper {
   margin-bottom: 120px;
   text-align: center;
