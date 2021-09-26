@@ -1,7 +1,6 @@
 @media (max-width: 600px) {
-  .introduction {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+  .top-wrapper .top-img {
+    height: 95vh;
   }
 }
 /*# sourceMappingURL=responsive.css.map */
