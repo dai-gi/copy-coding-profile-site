@@ -1,4 +1,11 @@
-# HTML/CSSの学習制作物
+# HTML/CSS学習制作物
 
-下記サイトで学習しました。
+## 利用したサイト
+
 [Codestep 【HTML/CSS コーディング練習】入門編：プロフィールサイト/LP](https://code-step.com/profile-menu/)
+
+## 学習内容
+
+- Flexbox
+- レスポンシブ
+- sass(上記イトの学習内容には含まれていないです。)
